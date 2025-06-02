@@ -132,5 +132,56 @@ research_news_task = Task(
 )
 ```
 
-📓 **Notebook**: `04_callbacks.ipynb`
+## 🧱 Hierarchical Agentic Workflows
 
+Create **composable agent stacks** where one agent orchestrates multiple sub-agents.
+
+Useful for:
+
+* Complex planning
+* Delegated problem solving
+
+📓 **Notebook**: `04_hierarchical_agents.ipynb`
+
+## 👨‍💼 Human-in-the-Loop (HITL)
+
+Inject human feedback, approvals, or manual corrections between task steps.
+
+Use cases:
+
+* Legal review
+* Medical decisions
+* Any high-risk domain
+
+📓 **Notebook**: `05_human_in_loop.ipynb`
+
+
+---
+
+## 🖼️ Multimodal Agents
+
+Extend your agents to handle:
+
+* 📄 Text
+* 🖼️ Images
+* 🔊 Audio
+* 📊 Tables or PDFs
+
+Enable richer interactions beyond plain language.
+
+```python
+from crewai import Agent, LLM
+
+llm = LLM(model="gpt-4o")
+
+quality_inspector = Agent(
+    role="Product Quality Inspector",
+    goal="Analyze and assess the quality of product images",
+    backstory="""An experienced manufacturing quality control
+                 expert who specializes in detecting defects
+                 and ensuring compliance.""",
+    multimodal=True,
+    verbose=True,
+    llm=llm
+)
+```
