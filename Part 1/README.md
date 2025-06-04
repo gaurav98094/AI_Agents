@@ -2,6 +2,60 @@
 <img src="img/image1.png">
 
 
+## 📘 Table of Contents
+
+
+### **🧩 Part 1: Foundations of Agent Systems**
+
+1. **Introduction**
+
+2. **Motivation for Agents**
+
+   * Perspective from Retrieval-Augmented Generation (RAG)
+   * Perspective from Software Development
+   * Perspective from Autonomous Systems
+
+3. **Example Task: Research Report**
+
+   * Approach Using a Basic LLM
+   * Approach Using Agents
+
+4. **Core Components of AI Agents**
+
+5. **Designing Agent Architectures**
+
+6. **📓 Notebook 01**: Building Agents
+
+7. **Structured Output**
+
+   * Why Structured Output Matters
+   * 📓 Notebook 02: Using Pydantic for Structured Output
+
+8. **Custom Tool Integration**
+
+   * 📓 Notebook 03: Implementing Custom Tools
+
+9. **Agent Flows**
+
+   * Why Flows Are Needed
+   * 📓 Notebook 04: Implementing Flows
+   * Key Flow Concepts
+
+     * State Management
+     * 📓 Notebook 05: State Handling in Flows
+     * Router Logic
+
+10. **Multi-Agent Coordination**
+
+    * 📓 Notebook 06: Working with Crews and Flows
+    * Managing Multiple Crews
+
+11. **🚀 Project Series**
+
+    * Social Media Content Writer
+    * Book Authoring Assistant
+
+
 ## Motivation for Agents
 
 **From the RAG Perspective**
