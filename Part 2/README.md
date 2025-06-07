@@ -1,52 +1,13 @@
 ## 📘 Table of Contents
 
 1. **Advanced Concepts Introduction**
-
-   * Recap of Agent Capabilities, Flows, and Multi-Crew Coordination
-
 2. **Guardrails**
-
-   * Purpose and Benefits of Guardrails
-   * Use Case: Legal Assistant
-   * Writing Guardrail Functions
-   * Return Format & Retry Logic
-   * 📓 Notebook 01: Guardrails in Action
-
 3. **Referencing Task Outputs**
-
-   * Using Previous Task Results Dynamically
-   * Chaining Dependent Tasks
-   * 📓 Notebook 02: Task Output Referencing
-
 4. **Asynchronous Execution**
-
-   * Running Tasks in Parallel
-   * When and How to Use Async Workflows
-   * 📓 Notebook 03: Async Task Execution
-
 5. **Callbacks**
-
-   * Post-Task Hooks and Automation
-   * Examples: Notifications, Database Updates
-   * Example Task with Callback
-
 6. **Hierarchical Workflows**
-
-   * Designing Nested Agent Systems
-   * Use Cases for Orchestrator-Worker Patterns
-   * 📓 Notebook 04: Hierarchical Agents
-
 7. **Human-in-the-Loop (HITL)**
-
-   * Injecting Human Oversight
-   * HITL in High-Stakes Domains
-   * 📓 Notebook 05: HITL Workflows
-
 8. **Multimodal Agents**
-
-   * Handling Text, Images, Audio, and More
-   * Example Configuration for Multimodal Agents
-
 
 
 # 🧠 Advanced Agent Workflows with CrewAI
