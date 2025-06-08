@@ -85,7 +85,7 @@ text_source = TextFileKnowledgeSource(
 * A **sales agent** accessing a shared CRM dump in `.csv` to answer customer queries.
 * An **HR agent** parsing internal policy documents in `.docx` or `.txt`.
 
----
+
 
 
 ## 🧠 **Memory in Agentic Systems**
@@ -132,8 +132,6 @@ Memory is a mechanism that allows an agent to **store and recall information** f
 
 CrewAI integrates memory modules that allow agents to **retrieve, update, and store knowledge dynamically**, making them more adaptive, context-aware, and capable of long-term reasoning.
 
-
----
 
 ## 🧠 **Memory Deep-Dive**
 
