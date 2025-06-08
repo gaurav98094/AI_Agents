@@ -86,7 +86,7 @@ text_source = TextFileKnowledgeSource(
 * An **HR agent** parsing internal policy documents in `.docx` or `.txt`.
 
 
-
+<br><br>
 
 ## 🧠 **Memory in Agentic Systems**
 
@@ -132,6 +132,8 @@ Memory is a mechanism that allows an agent to **store and recall information** f
 
 CrewAI integrates memory modules that allow agents to **retrieve, update, and store knowledge dynamically**, making them more adaptive, context-aware, and capable of long-term reasoning.
 
+
+<br><br>
 
 ## 🧠 **Memory Deep-Dive**
 
