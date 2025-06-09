@@ -93,7 +93,7 @@
 
 --- 
 
-### **🧩 Part 3: **
+### **🧩 Part 3**
 
 1. **Knowledge Integration for AI Agents using CrewAI**
    * What is "Knowledge for Agents"?
