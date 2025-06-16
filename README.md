@@ -115,3 +115,23 @@
      * User Memory
    * How Memory Works in CrewAI
    * Resetting Memory
+
+---
+
+### 📚 Part 4
+
+1. **ReAct Agent**
+
+   * Overview of Reasoning + Acting
+   * Key Benefits of ReAct
+   * Thought → Action → Observation Loop
+   * 📓 Notebook: `01 - ReAct From Scratch`
+
+
+
+2. **Planning Agents**
+   * Overview of the Planning Pattern
+   * Benefits of Pre-planned Execution
+   * Two-phase Agentic Execution
+     * Plan → Execute → Respond
+   * 📓 Notebook: `02 - Planning Pattern From Scratch`

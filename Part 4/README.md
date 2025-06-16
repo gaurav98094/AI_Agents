@@ -1,4 +1,10 @@
 
+### 📘 Table of Contents
+
+1. **ReAct Agent**
+2. **Planning Agents**
+
+<br>
 
 ## 🤖 ReAct Pattern for AI Agents with CrewAI
 
@@ -77,3 +83,40 @@ CrewAI provides a seamless implementation of the ReAct pattern so you can:
 
 📓 **Notebook:** `01 - ReAct From Scratch`
 
+
+## 🤖 Planning Agentic Pattern
+- Planning pattern lets agent plan out a solution before executing any actions.
+
+<img src="img/planning.png">
+
+- Only after th eplan is laid out agent proceed to carry out each step in the plan, and finally produce the answer.
+
+- Helps agent to devide a complex tasks into various sub-tasks.
+
+
+### Planning vs ReAct
+
+| Aspect                 | **ReAct (Reason + Act)**                                     | **Planning**                                                  |
+| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------- |
+| **Definition**         | Interleaves reasoning and acting step-by-step                | Plans the full sequence of actions before execution           |
+| **Flow**               | Thought → Action → Observation → Thought → ...               | Thought → Plan → Sequential Actions                           |
+| **Strength**           | Flexible; adapts based on intermediate results               | Efficient when task structure is known or deterministic       |
+| **Weakness**           | May be inefficient due to trial-and-error                    | Fails if early planning is wrong or if environment is dynamic |
+| **Ideal for**          | Interactive, uncertain environments (e.g., web browsing)     | Static tasks with clear steps (e.g., math problems)           |
+| **Example Use Case**   | Tool use with feedback (e.g., using a calculator tool)       | Chain-of-thought math problem solving                         |
+| **LLMs Behave Like**   | An agent thinking out loud and adapting                      | A planner creating a strategy then executing it               |
+| **Popular Papers**     | [ReAct (Yao et al., 2022)](https://arxiv.org/abs/2210.03629) | [Tree of Thoughts](https://arxiv.org/abs/2305.10601)          |
+| **Tool Use**           | Often involves tools mid-reasoning                           | May involve tools only after full planning                    |
+| **Real-World Analogy** | A detective solving a case by observing & acting stepwise    | A chef planning a recipe before cooking                       |
+
+---
+
+### Formalizing the Planning Pattern
+Planning agent introduces two-phase approach:
+- Device the plan
+- Execute it
+- Aggregate & Respond
+
+<img src="img/planning2.png">
+
+📓 **Notebook:** `02 - Planning Pattern From Scratch`
